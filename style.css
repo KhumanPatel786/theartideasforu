@@ -1,1 +1,114 @@
-[your style.css content here]
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #222;
+}
+
+/* HEADER */
+.top-header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.top-header nav {
+  margin-top: 15px;
+}
+
+.top-header nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 15px auto;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #2575fc;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #6a11cb;
+}
+
+/* BANNER */
+.banner img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* ADS */
+.ads {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.ad-box {
+  margin-top: 10px;
+  padding: 30px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
+/* CTA */
+.cta {
+  background: #2575fc;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta .btn {
+  background: white;
+  color: #2575fc;
+}
+
+/* INSTAGRAM */
+.insta-feed {
+  padding: 40px 20px;
+  text-align: center;
+  background: white;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #4da3ff;
+  text-decoration: none;
+}
