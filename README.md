@@ -5,3 +5,4 @@ like us
 follow us
 subscribe us
 will update 
+setup
