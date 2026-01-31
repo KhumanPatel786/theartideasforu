@@ -6,3 +6,4 @@ follow us
 subscribe us
 will update 
 setup
+only for learn
